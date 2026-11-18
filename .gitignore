@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.DS_Store
+.pytest_cache/
+
+# Local prediction history and backups
+prediction_history.json
+app_backup.py
+README_backup.md
+

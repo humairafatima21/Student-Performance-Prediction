@@ -1,0 +1,32 @@
+{
+    "model_name": "Random Forest Regression",
+    "selection_method": "5-fold cross-validation on training split, lowest mean RMSE",
+    "r2": 0.847562719280245,
+    "mae": 1.0616230551270105,
+    "mse": 3.125733646574026,
+    "rmse": 1.7679744473758738,
+    "training_records": 316,
+    "testing_records": 79,
+    "features": [
+        "studytime",
+        "failures",
+        "absences",
+        "G1",
+        "G2",
+        "age"
+    ],
+    "target": "G3",
+    "random_state": 42,
+    "cv_results": [
+        {
+            "model": "Linear Regression",
+            "cv_rmse_mean": 1.85485474207061,
+            "cv_rmse_std": 0.4114581119835518
+        },
+        {
+            "model": "Random Forest Regression",
+            "cv_rmse_mean": 1.6396453227338565,
+            "cv_rmse_std": 0.33705016752980077
+        }
+    ]
+}
